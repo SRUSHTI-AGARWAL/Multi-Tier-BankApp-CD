@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: imsrushti/bankapp:10.1
+        image: imsrushti/bankapp:v11
         ports:
         - containerPort: 8080
         env:
